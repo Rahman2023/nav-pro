@@ -1,0 +1,143 @@
+.nav-logo img {
+  width: 110px;
+}
+.plus-right {
+  text-align: right;
+}
+.cc {
+  /* margin-right: 0.5rem; */
+}
+.close-nav {
+  width: 100%;
+
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.close-nav li {
+  list-style-type: none;
+}
+.close-nav span {
+  text-align: right;
+
+  padding: 0rem 0.3rem;
+  font-weight: bolder;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 100%;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+.close-nav img {
+  margin-right: 0.4rem;
+}
+.close-menu {
+  font-weight: bolder;
+  width: 80px;
+  justify-content: flex-end;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+  content: "-";
+}
+.shopping-cart-icon {
+  margin-right: 1rem;
+}
+.menu-list img {
+  width: 30px;
+}
+.menu-list span {
+  text-align: right !important;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.1rem 0.5rem;
+  margin: 1rem 0.5rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(221, 14, 28, 1);
+  border-radius: 5px;
+}
+.search-bar img {
+  width: 20px;
+}
+.search-bar input {
+  background-color: transparent;
+  border: none;
+}
+.navbar {
+  position: relative;
+}
+.navbar-nav {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgb(239, 243, 242);
+  top: 0px;
+  left: 0px;
+}
+.inner-li li {
+  list-style-type: none;
+}
+/* ============ accodion ================== */
+.accordion-button img {
+  width: 20px;
+  margin-right: 0.3rem;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "";
+  background-image: url(image/plus-png-icon.png);
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(image/minus-icon.png);
+  border-radius: 50%;
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-button:focus {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color: transparent;
+}
+.item-body a {
+  text-decoration: none;
+  color: black;
+}
+.item-box h6::before {
+  content: ">";
+  color: brown;
+}
+.item-box h6 {
+  font-size: 16px !important;
+}
+.item-box h5 {
+  display: block;
+  padding-left: 0.6rem;
+  background-color: rgb(243, 117, 117);
+}
+.item-scroll {
+  width: 100%;
+
+  height: 280px;
+  overflow: auto;
+}
+/* ====  accodion  ======= */
